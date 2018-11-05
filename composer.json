@@ -18,14 +18,18 @@
     }
   ],
   "require": {
-    "hhvm": ">=3.29",
+    "hhvm": "^3.29",
     "hhvm/experimental-http-request-response-interfaces": "dev-next"
-  },
+	},
+	"autoload": {
+		"psr-4": {
+			"Usox\\HackHttpFactory\\": "src/"
+		}
+	},
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/usox/hack-http-request-response-interfaces"
     }
-  ],
-  "minimum-stability": "stable"
+  ]
 }
