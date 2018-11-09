@@ -19,7 +19,7 @@
   ],
   "require": {
     "hhvm": "^3.29",
-    "hhvm/experimental-http-request-response-interfaces": "dev-next"
+    "hhvm/experimental-http-request-response-interfaces": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
@@ -29,7 +29,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/usox/hack-http-request-response-interfaces"
+      "url": "https://github.com/facebookexperimental/hack-http-request-response-interfaces.git"
     }
   ]
 }
