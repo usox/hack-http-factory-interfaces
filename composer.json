@@ -29,7 +29,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/usox/hack-http-request-response-interfaces"
+      "url": "https://github.com/facebookexperimental/hack-http-request-response-interfaces.git"
     }
   ]
 }
