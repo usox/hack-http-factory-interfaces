@@ -19,7 +19,7 @@
   ],
   "require": {
     "hhvm": "^3.29",
-    "hhvm/experimental-http-request-response-interfaces": "dev-next"
+    "hhvm/experimental-http-request-response-interfaces": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
