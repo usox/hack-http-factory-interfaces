@@ -12,8 +12,8 @@ interface ServerRequestFactoryInterface {
    * of the given values is performed, and, in particular, no attempt is made to
    * determine the HTTP method or URI, which must be provided explicitly.
    *
-   * @param HTTPMethod $method The HTTP method associated with the request.
-   * @param UriInterface $uri The URI associated with the request
+   * @param Message\HTTPMethod $method The HTTP method associated with the request.
+   * @param Message\UriInterface $uri The URI associated with the request
    * @param dict<string, string> $server_params Array of SAPI parameters with which to seed
    *     the generated request instance.
    *
