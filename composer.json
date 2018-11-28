@@ -19,7 +19,7 @@
   ],
   "require": {
     "hhvm": "^3.29",
-    "facebook/hack-http-request-response-interfaces": "dev-master"
+    "facebook/hack-http-request-response-interfaces": "^0.1"
 	},
 	"autoload": {
 		"psr-4": {
