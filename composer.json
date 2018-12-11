@@ -20,10 +20,10 @@
   "require": {
     "hhvm": "^3.29",
     "facebook/hack-http-request-response-interfaces": "^0.1"
-	},
-	"autoload": {
-		"psr-4": {
-			"Usox\\HackHttpFactory\\": "src/"
-		}
-	}
+  },
+  "autoload": {
+    "psr-4": {
+      "Usox\\HackHttpFactory\\": "src/"
+    }
+  }
 }
