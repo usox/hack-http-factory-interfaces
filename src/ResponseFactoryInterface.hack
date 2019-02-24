@@ -1,5 +1,3 @@
-<?hh // strict
-
 namespace Usox\HackHttpFactory;
 
 use namespace Facebook\Experimental\Http\Message;
