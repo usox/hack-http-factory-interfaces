@@ -19,16 +19,11 @@
   ],
   "require": {
     "hhvm": "^4.0",
-    "facebook/hack-http-request-response-interfaces": "^0.2"
+    "facebook/hack-http-request-response-interfaces": "^0.2|^0.3"
   },
   "autoload": {
     "psr-4": {
       "Usox\\HackHttpFactory\\": "src/"
-    }
-  },
-  "config": {
-    "platform": {
-      "hhvm": "4.0.0"
     }
   }
 }
